@@ -250,7 +250,7 @@ const ProfileCard = ({ isFollowed, setIsFollowed }) => {
                     </h2>
                     <p>{showFollowers ? <p className='p-content'>More than 5000 followers</p>: 'Head of Digital Marketing'}</p>
                     <button style={{position:'relative'}} onClick={handleFollowClick} className="followButton" data-status={isFollowed ? "save" : "follow"}>
-                     {isFollowed ? <><img src={iconss} alt="Save Icon" style={{bottom:'-22%',left:'22%',position:'absolute',height:'20px',width: '15px',}} />Save Contact</> : 'Follow'}
+                     {isFollowed ? <><img src={iconss} alt="Save Icon" style={{bottom:'-22%',left:'-1%',position:'absolute',height:'20px',width: '15px',}} />Save Contact</> : 'Follow'}
                         
                     </button>
                 </div>
